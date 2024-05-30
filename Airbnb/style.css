@@ -30,14 +30,14 @@ body {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  
+  width: 50%;
 }
 #states {
   display: inline;
   text-align: center;
   flex-wrap: wrap;
-  margin-left:30px;
-  margin-right:50px;
+  margin-left:2%;
+  margin-right:5%;
 }
 #state-one {
   font-weight: bold;
@@ -90,6 +90,9 @@ button {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+filter>section {
+  font-size: 16px;
+}
 .big-box {
   display: flex;
   justify-content: center;
@@ -100,7 +103,7 @@ button {
   margin:auto;
 }
 .container-one {
-  width: 80%;
+  width:98%;
   height: 70px;
   margin:30px auto;
   border: 1px solid grey;
