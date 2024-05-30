@@ -90,9 +90,7 @@ button {
 .container-one {
   width: 80%;
   height: 70px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin:30px auto;
   border: 1px solid grey;
   border-radius: 5px;
   display: flex;
