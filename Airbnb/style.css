@@ -9,10 +9,10 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  max-width:1400px;
+  max-width: 1400px;
 }
-.container{
-  width:90%
+.container {
+  width: 90%;
 }
 #header {
   color: red;
@@ -50,27 +50,34 @@ body {
 #amenities ul {
   list-style: none;
 }
-
-#search {
-  width: 15%;
+.search {
+  width: 19%;
   height: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-right: 25px;
   padding-left: 25px;
-  background-color: #f51c2a;
+  background-color: #ff0000a3;
   border-radius: 5px;
+}
+.button-text {
+  margin-left: 18px;
+  margin-right: 5px;
+  color: #ffffff;
 }
 button {
   margin-left: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 #places {
   font-size: 40px;
   padding: 15px;
-  margin: 20px;
+  margin-left: 50px;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 .big-box {
   display: flex;
@@ -79,10 +86,11 @@ button {
   flex-wrap: wrap;
 }
 .container-one {
-  width: 70%;
+  width: 80%;
   height: 70px;
   margin-top: 20px;
-  margin-left: 70px;
+  margin-left: 15%;
+  margin-right: 10px;
   border: 1px solid grey;
   border-radius: 5px;
   display: flex;
@@ -102,11 +110,11 @@ button {
   margin-right: auto;
   padding: 20px;
 }
-.owner-one{
-  margin-top:10px;
+.owner-one {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
-.owner-text-one{
+.owner-text-one {
   line-height: 20px;
 }
 .amenity-two {
@@ -114,20 +122,20 @@ button {
   margin-top: 30px;
   font-size: 18px;
 }
-.review-one{
-  padding-top:10px;
-  margin-top:20px;
+.review-one {
+  padding-top: 10px;
+  margin-top: 20px;
   margin-bottom: 0px;
-  font-size:18px;
+  font-size: 18px;
   font-weight: 700;
 }
-.review-text-one{
-  padding-bottom:10px;
-  margin-top:10px ;
-  line-height:20px;
+.review-text-one {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  line-height: 20px;
 }
-.icon-one{
-  padding-bottom:5px;
+.icon-one {
+  padding-bottom: 5px;
   padding-top: 10px;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -135,8 +143,14 @@ button {
 .icons {
   margin: 10px;
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
   align-content: center;
+}
+.icon-image-text {
+  font-size: 10px;
+  margin-left: 4px;
+  margin-right: px;
+  padding-left: 0px;
 }
 .home {
   display: flex;
@@ -146,7 +160,7 @@ button {
 h2 {
   font-size: 28px;
 }
-#eighty {
+.eighty {
   border: 2px solid red;
   border-radius: 40dvb;
   width: 25px;
@@ -170,33 +184,33 @@ h2 {
   border-radius: 4px;
   padding: 20px;
 }
-.owner-two{
-  margin-top:10px;
+.owner-two {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
-.owner-text-two{
+.owner-text-two {
   line-height: 20px;
 }
-.amenity-three{
-  padding-top:8px;
-  margin-top:20px;
-  font-size:18px;
+.amenity-three {
+  padding-top: 8px;
+  margin-top: 20px;
+  font-size: 18px;
 }
-.review-two{
-  padding-top:10px;
-  margin-top:20px;
+.review-two {
+  padding-top: 10px;
+  margin-top: 20px;
   margin-bottom: 0px;
-  font-size:18px;
+  font-size: 18px;
   font-weight: 700;
 }
-.review-text-two{
-  padding-bottom:10px;
-  margin-top:10px;
+.review-text-two {
+  padding-bottom: 10px;
+  margin-top: 10px;
   line-height: 18px;
 }
-.icon-two{
+.icon-two {
   margin-top: 5px;
-  font-size:16px;
+  font-size: 16px;
 }
 #ninety {
   border: 2px solid red;
@@ -222,8 +236,8 @@ hr {
   padding-top: 0px;
   margin: auto;
 }
-i{
-  padding:5px;
+i {
+  padding: 5px;
 }
 .icons {
   display: flex;
@@ -241,36 +255,36 @@ i{
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   border-radius: 4px;
   padding: 20px;
 }
-.owner-three{
-  margin-top:10px;
+.owner-three {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
-.owner-text-three{
+.owner-text-three {
   line-height: 20px;
 }
-.amenity-four{
-  padding-top:8px;
-  margin-top:20px;
-  font-size:18px;
+.amenity-four {
+  padding-top: 8px;
+  margin-top: 20px;
+  font-size: 18px;
 }
-.review-three{
-  padding-top:10px;
-  margin-top:20px;
+.review-three {
+  padding-top: 10px;
+  margin-top: 20px;
   margin-bottom: 0px;
-  font-size:18px;
+  font-size: 18px;
   font-weight: 700;
 }
-.review-text-three{
-  padding-bottom:10px;
-  margin-top:10px;
+.review-text-three {
+  padding-bottom: 10px;
+  margin-top: 10px;
   line-height: 18px;
 }
-.icon-three{
-  padding-bottom:5px;
+.icon-three {
+  padding-bottom: 5px;
   padding-top: 10px;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -283,9 +297,8 @@ footer {
   padding-top: 20px;
   text-align: center;
 }
-#footer-text{
+#footer-text {
   text-align: center;
   margin-bottom: auto;
   margin-top: auto;
 }
-
