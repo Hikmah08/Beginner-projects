@@ -92,7 +92,6 @@ button {
 }
 .big-box {
   display: flex;
-  flex-direction: row;
   margin-left: 0px;
   flex-wrap: wrap;
 }
@@ -111,8 +110,6 @@ button {
   border-radius: 4px;
   box-sizing: border-box;
   padding-bottom: 10px;
-  width: 27%;
-  height: 10%;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -183,8 +180,6 @@ h2 {
 }
 .container-three {
   border: 1px solid red;
-  width: 25%;
-  height: 4%;
   padding-bottom: 10px;
   padding-top: 25px;
   margin-left: 0px;
@@ -256,8 +251,6 @@ i {
 }
 .container-four {
   border: 1px solid red;
-  width: 25%;
-  height: 4%;
   padding-bottom: 10px;
   padding-top: 25px;
   margin-left: auto;
