@@ -94,6 +94,8 @@ button {
   display: flex;
   margin-left: 0px;
   flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
 }
 .container-one {
   width: 80%;
@@ -104,6 +106,9 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.big-box div {
+  width:320px;
 }
 .container-two {
   border: 1px solid red;
