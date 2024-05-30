@@ -97,6 +97,7 @@ button {
   flex-wrap: wrap;
   flex-direction: row;
   width: 80%;
+  margin:auto;
 }
 .container-one {
   width: 80%;
@@ -110,17 +111,13 @@ button {
 }
 .big-box>div {
   width:320px;
-  margin:10px;
+  margin: 10px;
 }
 .container-two {
   border: 1px solid red;
   border-radius: 4px;
-  box-sizing: border-box;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 20px;
+ 
 }
 .owner-one {
   margin-top: 10px;
@@ -187,10 +184,6 @@ h2 {
 }
 .container-three {
   border: 1px solid red;
-  padding-bottom: 10px;
-  padding-top: 25px;
-  margin-left: 0px;
-  margin-right: auto;
   border-radius: 4px;
   padding: 20px;
 }
