@@ -107,7 +107,7 @@ button {
   flex-direction: row;
   justify-content: space-between;
 }
-.big-box div {
+.big-box>div {
   width:320px;
 }
 .container-two {
