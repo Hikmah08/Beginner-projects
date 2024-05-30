@@ -92,6 +92,7 @@ button {
 }
 .big-box {
   display: flex;
+  justify-content: center;
   margin-left: 0px;
   flex-wrap: wrap;
   flex-direction: row;
@@ -109,6 +110,7 @@ button {
 }
 .big-box>div {
   width:320px;
+  margin:10px;
 }
 .container-two {
   border: 1px solid red;
@@ -256,12 +258,6 @@ i {
 }
 .container-four {
   border: 1px solid red;
-  padding-bottom: 10px;
-  padding-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
   border-radius: 4px;
   padding: 20px;
 }
