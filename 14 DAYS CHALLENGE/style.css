@@ -32,9 +32,20 @@ p{
     padding: 2%;
     height:60vh;
     margin: 2% ;
-    
     background-color: white;
     animation: floatImage 4s linear infinite;
+}
+.image-one{
+    border: 2px solid none;
+    border-radius: 15px;
+    width: 50vw;
+    padding: 2%;
+    height:68vh;
+    margin: 2% ;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: white;
 }
 @keyframes floatImage {
     0% {
@@ -55,8 +66,8 @@ img{
     height:50vh;
 }
 .bakers{
-    width:70%;
-    height:70vh;
+    width:650px;
+    height:400px;
     display: flex;
 }
 @media (max-width:700px) {
@@ -75,6 +86,15 @@ img{
         height:55vh;
     }
     img{
+        width:300px;
+        height:200px;
+    }
+    .image-one{
+        width:300px;
+        height:55vh;
+        margin-left: 7%;
+    }
+    .bakers{
         width:300px;
         height:200px;
     }
