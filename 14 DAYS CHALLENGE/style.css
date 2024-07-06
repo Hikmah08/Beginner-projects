@@ -29,8 +29,10 @@ p{
     border: 2px solid none;
     border-radius: 15px;
     width: 40vw;
-    margin: 2% ;
     padding: 2%;
+    height:60vh;
+    margin: 2% ;
+    
     background-color: white;
     animation: floatImage 4s linear infinite;
 }
@@ -46,12 +48,11 @@ p{
     }
 }
 .image:hover{
-    box-shadow: 0px 5px 9px 20px #0ad4d4;
-    
+    box-shadow: 0px 5px 9px 8px #0ad4d4;
 }
 img{
     width:40vw;
-    height:300px;
+    height:50vh;
 }
 .bakers{
     width:70%;
@@ -59,9 +60,22 @@ img{
     display: flex;
 }
 @media (max-width:700px) {
+    .container{
+        width:100%
+    }
     .contain{
+        width:100%;
+        height:100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+    .image{
+        width:300px;
+        height:55vh;
+    }
+    img{
+        width:300px;
+        height:200px;
     }
 }
